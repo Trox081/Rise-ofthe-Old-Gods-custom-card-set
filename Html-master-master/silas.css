@@ -1,0 +1,133 @@
+/* ESTILO SILAS */
+*{ 
+    margin: 0;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* BODY*/
+body{
+    background-color:#353946;
+}
+
+
+/* HEADER */
+header{
+display:flex;
+justify-content: space-between;
+}
+header p{
+    font-size: 25px;
+    margin: 30px;
+    color:rgb(252, 252, 252);
+
+}
+header a {
+    display: inline-block;
+    color: rgb(197, 0, 197);
+    margin-top:40px;
+    margin-right: 30px;
+text-decoration: none;
+}
+
+header a:hover{
+    color: blue
+}
+
+/* Banner */
+.banner{
+    background-color: #100c31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.banner img{
+    width: 750px;
+    height: 400px;
+    border: solid 5px #3a3a3a;
+}
+
+.banner div{
+    width: 500px;
+    margin-right: 50px;
+}
+
+.Text h1{
+    font-size: 52px;
+    border-radius: 15%;
+    color: rgb(197, 0, 197);
+    text-align: center;
+    width: 1325px;
+} 
+
+.banner a{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #100049;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner h1{
+    font-size: 50px;
+    color:rgb(197, 0, 197);
+}
+
+/* Sobre */
+.sobre{
+    margin: center;
+    margin-bottom: -5%;
+    color:rgb(197, 0, 197);
+    background-color: 32, 21, 31;
+    }
+    
+    .sobre h1{
+        font-size: 50px;
+        color:rgb(197, 0, 197);
+    }
+    
+    .sobre p{
+    text-align: justify;
+    margin-top:30px;
+    font-size: 18px;
+    line-height: 40px;
+    margin-right: 10px;
+    }
+
+.sobre img{
+    width: 60%;
+}
+
+
+/* Quartos */
+.cartas{
+    margin-top: 80px;
+    background-color: rgb(23, 21, 32);
+}
+
+.cartas h1{
+    font-size: 40px;
+    margin-top: 30px;
+    color: 170, 95, 199;
+    border: solid 5px 170, 95, 199;
+    width: 1350px;
+    text-align: center;
+    border-radius: 15%;
+    color:rgb(197, 0, 197);
+}
+
+/* Rodapé */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(197, 0, 197);
+    padding: 30px;
+}
+
+footer i {
+    margin-left: 20px;
+}

@@ -1,0 +1,145 @@
+/* ESTILO CTHUN */
+*{ 
+    margin: 0;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* BODY*/
+body{
+    background-color:#365781;
+}
+
+
+/* HEADER */
+header{
+display:flex;
+justify-content: space-between;
+}
+header p{
+    font-size: 25px;
+    margin: 30px;
+    color:rgb(255, 255, 255)
+
+}
+header a {
+    display: inline-block;
+    color: rgb(3, 0, 177);
+    margin-top:40px;
+    margin-right: 30px;
+text-decoration: none;
+}
+
+header a:hover{
+    color: blue
+}
+
+/* Banner */
+.banner{
+    background-color: #340049;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.banner img{
+    width: 600px;
+    height: 400px;
+    border: solid 5px #193b6d;
+}
+
+.banner div{
+    width: 500px;
+    margin-right: 50px;
+}
+
+.banner h1{
+    font-size: 32px;
+    border: solid 5px #193b6d;
+    border-radius: 15%;
+}
+
+.banner p{
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 24px;
+}
+
+.banner a{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #365781;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.Text h1{
+    font-size: 52px;
+    border-radius: 15%;
+    color: rgb(3, 0, 177);
+    text-align: center;
+    width: 1325px;
+} 
+
+
+
+/* Sobre */
+.sobre{
+    margin: center;
+    margin-bottom: -5%;
+    color:rgb(3, 0, 177);
+    background-color: #193b6d;
+    }
+    
+    .sobre h1{
+        font-size: 50px;
+        color:rgb(3, 0, 177);
+    }
+    
+    .sobre p{
+        text-align: justify;
+        margin-top:30px;
+        margin-right: 10px;
+        font-size: 20px;
+        line-height: 40px;
+        }
+
+.sobre img{
+    width: 80%;
+    object-fit: contain;
+}
+
+
+/* Quartos */
+.cartas{
+    margin-top: 80px;
+    background-color: #193b6d;
+}
+
+.cartas h1{
+    font-size: 40px;
+    margin-top: 30px;
+    color: rgb(3, 0, 177);
+    border: solid 5px 170, 95, 199;
+    border-color: #193b6d;
+    width: 1350px;
+    text-align: center;
+    border-radius: 15%;
+    color:rgb(3, 0, 177);
+}
+
+
+/* Rodapé */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(3, 0, 177);
+    padding: 30px;
+}
+
+footer i {
+    margin-left: 20px;
+}
